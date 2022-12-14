@@ -7,9 +7,23 @@
     flex-direction: column;
     height: 125vh;
     color: rgb(255, 255, 255);
-    background-image:  url('/Looper-3.svg'), url('/Background.svg');
-    background-size: cover, cover;
-    background-position-y: 8px, center;
-    background-position-x: 2em, center;
+    background-image: url('/Background.svg');
+    background-size: cover;
+    background-position-y: -264px;
+    background-position-x: center;
     background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.section::before{
+    content: "";
+    position: absolute;
+    width: 58%;
+    height: 100%;
+    top: -120px;
+    left: 802px;
+    /* z-index: -1; */
+    background: url(/Looper-3.svg) no-repeat;
+    transform: rotate(5.68deg);
 }
