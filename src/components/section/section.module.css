@@ -1,0 +1,14 @@
+.section {
+    margin: 0 0;
+    padding: var(--space-4) var(--size-gutter);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125vh;
+    color: black;
+    background-image:  url('/Looper-3.svg'), url('/Background.svg');
+    background-size: 96rem, cover;
+    background-position-y: 26px, center;
+    background-position-x: 24em, center;
+    background-repeat: no-repeat;
+}
