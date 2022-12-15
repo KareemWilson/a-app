@@ -3,7 +3,7 @@ import Section from "../../components/section/Section"
 import * as styles from "./heroSection.module.css"
 
 const HeroSection = props => (
-  <Section name="Hero">
+  <Section additionalStyles={styles.hero}>
     <div className={styles.heroContent}>
       <p style={{ fontSize: "26px", fontWeigth: "600", fontStyle: 'normal' }}>Join in and connect</p>
       <h1

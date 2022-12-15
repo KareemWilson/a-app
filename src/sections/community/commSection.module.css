@@ -1,0 +1,66 @@
+.community {
+    padding-top: 15px;
+    /* background-color: aqua; */
+}
+
+.featureIcons {
+    width: 70em;
+    height: 21em;
+    display: flex;
+    list-style: none;
+}
+
+.featIcon{
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 0;
+    
+}
+
+.featureIcons li:nth-child(odd) {
+    align-self: center;
+    padding-top: 90px;
+}
+
+.featureIcons li:nth-child(even) {
+    padding-top: 40px;
+}
+
+.featureIcons li:nth-child(3){
+    align-self: flex-start;
+    padding-top: 0;
+}
+
+.communityTexts {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    font-family: var(--font);
+}
+
+.communityTexts p:nth-child(1) {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--font);
+    color: var(--color-main);
+    padding: 0;
+    margin: 0;
+}
+
+.communityTexts h3:nth-child(2) {
+    margin: 1px;
+    color: var(--color-secondary);
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1.26px;
+    font-style: normal;
+    opacity: 0.7;
+}
+
+.communityTexts p:nth-child(3) {
+    color: var(--color-third);
+    font-style: normal;
+    font-size: 18px;
+    opacity: 0.6;
+}
