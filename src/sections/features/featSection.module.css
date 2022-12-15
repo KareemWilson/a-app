@@ -1,0 +1,25 @@
+.features{
+    height: fit-content;
+}
+
+.featuresTexts {
+    display: flex;
+    flex-direction: column;
+    width: 72em;
+    align-items: flex-start;
+}
+
+.featuresTexts p:nth-child(1){
+    font-size: 48px;
+    font-family: var(--font);
+    font-weight: 600;
+    font-style: normal;
+    color: var(--color-secondary);
+    margin: 0;
+
+}
+
+.featuresTexts p:nth-child(2){
+    font-size: 18px;
+    color: var(--color-third) ;
+}
