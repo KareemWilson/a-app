@@ -1,4 +1,5 @@
 import * as React from "react"
+import Footer from "../../sections/footer/footer"
 // import { useStaticQuery, graphql } from "gatsby"
 import "./layout.module.css"
 
@@ -28,8 +29,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-        </footer>
+        <Footer />
       </div>
     </>
   )
