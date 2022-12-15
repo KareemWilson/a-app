@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    color: black;
+    color: var(--color-text2);
     padding: 30px;
     text-align: start;
 }
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
 }
 
 .icon {
@@ -28,13 +28,15 @@
 }
 
 .cardTitle{
-
+    font-size: 24px;
+    font-weight: 600;
+    
 }
 
 .border{
     width: 300px;
     height: 1px;
-    background-color: var(--color-third);
+    background-color: var(--color-forth);
     margin-bottom: 30px;
 }
 
@@ -48,7 +50,7 @@
 .cardFeatures li:nth-child(1){
     font-size: 16px;
     font-weight: 600;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
 }
 
 .cardButton{
