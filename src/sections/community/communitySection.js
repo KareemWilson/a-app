@@ -2,6 +2,7 @@ import * as React from "react"
 import CommunityCard from "../../components/communityCard/communityCard"
 import Section from "../../components/section/Section"
 import * as styles from "./commSection.module.css"
+import { communities } from "../../../public/static/data"
 
 const icons = [
   {
@@ -41,7 +42,9 @@ const CommunitySection = props => (
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <div className={styles.cardsContainer}>
-        
+        {communities.map((community) => (
+          <CommunityCard community={community} />
+        ))}
     </div>
   </Section>
 )

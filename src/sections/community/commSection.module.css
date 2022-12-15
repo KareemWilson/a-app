@@ -1,5 +1,6 @@
 .community {
     padding-top: 15px;
+    height: fit-content;
     /* background-color: aqua; */
 }
 
@@ -76,4 +77,14 @@
     font-style: normal;
     font-size: 18px;
     opacity: 0.6;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    flex-wrap: wrap;
+    padding: 3em 15em 0 21em;
+    align-items: center;
+    align-content: center;
 }

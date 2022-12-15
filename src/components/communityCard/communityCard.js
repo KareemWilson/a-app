@@ -1,19 +1,22 @@
 import * as React from 'react';
 import * as styles from './commCard.module.css'
 
-const CommunityCard = () => (
+const CommunityCard = ({ community }) => (
     <div className={styles.cardContainer}>
         <div className={styles.titleContainer}>
-            <img src='' alt='card-title-icon' />
-            <p className={styles.cardTitle}>coporations</p>
+            <img className={styles.icon} src={community.icon} alt='card-title-icon' />
+            <p className={styles.cardTitle}>{community.title}</p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p>{community.discription}</p>
         <div className={styles.border}></div>
         <ul className={styles.cardFeatures}>
             <li className={styles.cardFeaturesTitle}>Popular Features</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum dolor sit</li>
+            {community.features.map((feature) => (
+                <li className={styles.feature}>
+                    <img src='check.svg' alt='check' />
+                    <p>{feature}</p>
+                </li>
+            ))}
         </ul>
         <button className={styles.cardButton}>Get Started</button>
     </div>

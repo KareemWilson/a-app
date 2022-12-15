@@ -5,15 +5,26 @@
     box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     color: black;
     padding: 30px;
+    text-align: start;
 }
 
 .titleContainer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-main);
+    border-radius: 8px;
+    padding: 6px;
 }
 
 .cardTitle{
@@ -30,9 +41,35 @@
 .cardFeatures {
     display: flex;
     flex-direction: column;
+    list-style: none;
+    margin: 0;
+}
+
+.cardFeatures li:nth-child(1){
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
 }
 
 .cardButton{
     position: absolute;
     bottom: 30px;
+    align-self: center;
+    width: 277px;
+    height: 48px;
+    background: var(--color-main);
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+    gap: 8px;
 }
