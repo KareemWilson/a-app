@@ -4,10 +4,10 @@ import * as styles from './featCard.module.css'
 const FeatureCard = ({ feature }) => (
     <div className={styles.cardContainer}>
         <div className={styles.titleContainer}>
-            <img className={styles.icon} src='' alt='card-title-icon' />
-            <p className={styles.cardTitle}>hello</p>
+            <img className={styles.icon} src={feature.icon} alt='card-title-icon' />
+            <p className={styles.cardTitle}>{feature.title}</p>
         </div>
-        <p>henkdlznsldn sjdknkj scd chj sfh cjdhf hfjakdb kasjd ka ddjskada jdk da djksa dhs djh d</p>
+        <p>{feature.discription}</p>
     </div>
 )
 
