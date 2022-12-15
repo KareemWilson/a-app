@@ -14,7 +14,7 @@ const FeaturesSection = props => (
         {features.map((feature) => (
             <FeatureCard feature={feature} />
         ))}
-        <button className={styles.discoverBtn}>Discover its functions --&gt;</button>
+        <button className={styles.discoverBtn}>Discover its functions →</button>
     </div>
   </Section>
 )

@@ -7,7 +7,7 @@ const FeatureCard = ({ feature }) => (
             <img className={styles.icon} src={feature.icon} alt='card-title-icon' />
             <p className={styles.cardTitle}>{feature.title}</p>
         </div>
-        <p>{feature.discription}</p>
+        <p className={styles.featureDiscription}>{feature.discription}</p>
     </div>
 )
 

@@ -7,9 +7,15 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 25px 15px;
     text-align: start;
     background-color: white;
+}
+
+.featureDiscription{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-third);
 }
 
 .titleContainer{
@@ -17,7 +23,9 @@
 }
 
 .cardTitle{
-    
+    font-size: 16px;
+    font-family: var(--font);
+    margin-bottom: 10px;
 }
 
 .icon {

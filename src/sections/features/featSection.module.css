@@ -3,7 +3,6 @@
     background: url('/featuresBackground.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .featuresTexts {
@@ -27,12 +26,13 @@
 .featuresTexts p:nth-child(2){
     font-size: 18px;
     color: var(--color-third) ;
+    margin-bottom: 4em;
 }
 
 .featuresContainer {
     display: flex;
     flex-direction: row;
-    width: 75rem;
+    width: 75em;
     flex-wrap: wrap;
     gap: 15px;
 }
