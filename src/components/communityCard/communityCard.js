@@ -10,7 +10,7 @@ const CommunityCard = ({ community }) => (
         <p>{community.discription}</p>
         <div className={styles.border}></div>
         <ul className={styles.cardFeatures}>
-            <li className={styles.cardFeaturesTitle}>Popular Features</li>
+            <li>Popular Features</li>
             {community.features.map((feature) => (
                 <li className={styles.feature}>
                     <img src='check.svg' alt='check' />
