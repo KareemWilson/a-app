@@ -9,6 +9,7 @@
     flex-direction: column;
     padding: 32px;
     text-align: start;
+    background-color: white;
 }
 
 .titleContainer{
