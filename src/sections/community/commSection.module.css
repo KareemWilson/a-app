@@ -82,9 +82,10 @@
 .cardsContainer{
     display: flex;
     flex-direction: row;
-    gap: 3em;
+    gap: 20px;
+    width: 75em;
     flex-wrap: wrap;
-    padding: 3em 15em 0 21em;
+    padding-left: 2rem;
     align-items: center;
     align-content: center;
 }
