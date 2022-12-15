@@ -37,7 +37,7 @@ const HeroSection = props => (
       </button>
     </div>
     <img src="Video.svg" alt="template" className={styles.heroImage} />
-    <img src='chat.svg' alt='chat-icon' className={styles.chatIcon}/>
+    {/* <img src='chat.svg' alt='chat-icon' className={styles.chatIcon}/> */}
   </Section>
 )
 

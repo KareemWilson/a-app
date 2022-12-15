@@ -1,6 +1,6 @@
 .cardContainer{
-    width: 365px;
-    height: 613px;
+    width: 22.8125rem;
+    height: 38.3125rem;
     border-radius: 32px;
     box-shadow: 0px 8px 24px 8px rgba(0, 0, 0, 0.08);
     display: flex;
@@ -8,7 +8,7 @@
     align-items: flex-start;
     position: relative;
     color: var(--color-text2);
-    padding: 30px;
+    padding: 1.875rem;
     text-align: start;
 }
 
@@ -75,3 +75,9 @@
     align-content: center;
     gap: 8px;
 }
+
+@media screen and (max-width: 768px) {
+    .cardContainer{
+        width: inherit
+    }
+  }

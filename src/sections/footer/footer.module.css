@@ -22,7 +22,7 @@ footer h4:nth-child(2) {
     font-weight: 600;
     color: black;
     margin-top: 0;
-    width: 20em;
+    width: 100%;
     text-align: center;
     margin-bottom: 15px;
 }

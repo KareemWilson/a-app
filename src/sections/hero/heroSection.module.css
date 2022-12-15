@@ -7,17 +7,16 @@
     position: relative;
 }
 
-.hero::before{
+/* .hero::before{
     content: "";
     position: absolute;
     width: 58%;
     height: 100%;
     top: -120px;
     left: 802px;
-    /* z-index: -1; */
     background: url(/Looper-3.svg) no-repeat;
     transform: rotate(5.68deg);
-}
+} */
 
 .heroImage {
     position: absolute;
