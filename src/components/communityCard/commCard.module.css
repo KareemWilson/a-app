@@ -55,10 +55,10 @@
 
 .cardButton{
     position: absolute;
-    bottom: 30px;
+    bottom: 3%;
     align-self: center;
-    width: 277px;
-    height: 48px;
+    width: 68%;
+    height: 9%;
     background: var(--color-main);
     border: none;
     cursor: pointer;
