@@ -87,13 +87,17 @@
     justify-items: center;
 }
 
+@media screen and (max-width: 1280px){
+    .communityTexts {
+        width: 90%;
+    }
+}
 
 @media screen and (max-width: 1110px) {
     .communityTexts {
         width: 100%;
         margin-bottom: 5rem;
     }
-
     .cardsContainer{
         width: 95%
     }

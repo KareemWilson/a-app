@@ -63,9 +63,14 @@
     display: none;
 }
 
+@media screen and (max-width: 1280px){
+  .featuresTexts {
+      width: 89%;
+  }
+}
 
 @media screen and (max-width: 1117px) {
-  .featuresContainer {
+  .featuresTexts {
     grid-template-columns: auto auto;
   }
   .discoverBtn {
