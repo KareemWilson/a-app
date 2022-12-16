@@ -31,3 +31,12 @@
 .icon {
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .cardContainer{
+        min-width: 300px;
+    }
+    ::-webkit-scrollbar {
+        display:none;
+        }
+  }

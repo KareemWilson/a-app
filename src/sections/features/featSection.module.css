@@ -51,3 +51,12 @@
     background: transparent;
     margin-left: 5.7em;
 }
+
+@media screen and (max-width: 768px) {
+    .featuresContainer {
+        flex-wrap: nowrap;
+        min-width: 100%;
+        overflow-x: scroll;
+    }
+    
+  }
