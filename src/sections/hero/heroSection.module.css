@@ -31,7 +31,8 @@
 
 .chatIcon {
     position: fixed;
-    right: 44px;
+    bottom: 0;
+    right: 0;
 }
 
 .heroContent p:nth-child(1){
