@@ -6,6 +6,14 @@ footer{
     margin-top: 12em;
 }
 
+footer div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
 footer p:nth-child(1) {
     font-size: 18px;
     font-weight: 600;
@@ -29,6 +37,7 @@ footer h4:nth-child(2) {
 
 .footerBtns {
     display: flex;
+    flex-direction: row;
     gap: 15px;
     margin-bottom: 10em;
 }
