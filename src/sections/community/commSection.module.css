@@ -90,7 +90,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1110px) {
     .communityTexts {
         width: 100%;
         margin-bottom: 5rem;

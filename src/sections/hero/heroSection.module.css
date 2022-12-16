@@ -1,6 +1,6 @@
 .hero {
-    background-image: url(/Background.svg);
-    background-repeat: no-repeat;
+    background-image: url(/Looper-3.svg), url(/Background.svg);
+    background-repeat: no-repeat no-repeat;
     background-size: 135rem 87rem;
     background-position-y: -492px;
 }   
@@ -9,11 +9,9 @@
     content: "";
     position: absolute;
     width: 58%;
-    height: 100%;
     top: -120px;
     left: 802px;
     background: url(/Looper-3.svg) no-repeat;
-    transform: rotate(5.68deg);
 } */
 
 .heroImage {
@@ -50,7 +48,7 @@
 
 .heroContent p:nth-child(3){
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 500;
     max-width: 45rem; 
     font-style: normal; 
 }

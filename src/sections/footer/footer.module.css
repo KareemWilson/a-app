@@ -72,5 +72,9 @@ footer h4:nth-child(2) {
         font-weight: 600;
         font-size: 18px;
         line-height: 20px;
+        margin-bottom: 2rem;
+    }
+    .footerBtns{
+        width: 90%;
     }
 }
