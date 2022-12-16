@@ -59,3 +59,18 @@ footer h4:nth-child(2) {
     border-radius: 4px;
     font-family: 600;
 }
+
+@media screen and (max-width: 800px) {
+    footer div{
+        width: 85%;
+    }
+    footer p:nth-child(1) {
+        font-size: 14px;
+        font-style: normal;
+    }
+    footer h4:nth-child(2) {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
