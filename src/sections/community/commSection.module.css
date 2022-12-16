@@ -93,6 +93,7 @@
 @media screen and (max-width: 768px) {
     .communityTexts {
         width: 100%;
+        margin-bottom: 5rem;
     }
 
     .cardsContainer{
@@ -109,13 +110,12 @@
         margin-left: 0;
     }
     .featIcon {
-        height: 4.375rem;
+        height: 4rem;
         width: 5.625rem;
         border-radius: 8px;
     }
     .featIcon img {
-        height: 2.5rem;
-        width: 2.5rem
+        height: 2rem;
     }
   }
 
@@ -132,6 +132,7 @@
   @media screen and (max-width: 768px) {
     .cardsContainer{
         grid-template-columns: auto;
+        gap: 7rem;
 
     }
   }

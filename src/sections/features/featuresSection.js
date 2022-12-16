@@ -16,6 +16,7 @@ const FeaturesSection = props => (
         ))}
         <button className={styles.discoverBtn}>Discover its functions →</button>
     </div>
+    <button className={styles.discoverBtnMob}>Discover its functions →</button>
   </Section>
 )
 
