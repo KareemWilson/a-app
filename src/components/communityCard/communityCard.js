@@ -7,7 +7,7 @@ const CommunityCard = ({ community }) => (
             <img className={styles.icon} src={community.icon} alt='card-title-icon' />
             <p className={styles.cardTitle}>{community.title}</p>
         </div>
-        <p>{community.discription}</p>
+        <p className={styles.cardDescrip}>{community.discription}</p>
         <div className={styles.border}></div>
         <ul className={styles.cardFeatures}>
             <li>Popular Features</li>

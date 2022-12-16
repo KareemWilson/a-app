@@ -24,8 +24,6 @@
     border-radius: 32px;
 }
 
-
-
 .featureIcons li:nth-child(odd) {
     align-self: flex-end;
     padding-top: 0px;
