@@ -4,11 +4,11 @@ import Section from '../../components/section/Section';
 import * as styles from './commSection.module.css';
 import { communities, icons } from '../../../public/static/data';
 
-const CommunitySection = (props) => (
+const CommunitySection = () => (
   <Section additionalStyles={styles.community}>
     <ul className={styles.featureIcons} style={{ color: 'black' }}>
       {icons.map((icon) => (
-        <li className={styles.featIcon}>
+        <li key={icon.id} className={styles.featIcon}>
           <img src={icon.source} alt={icon.name} />
         </li>
       ))}
@@ -20,7 +20,7 @@ const CommunitySection = (props) => (
     </div>
     <div className={styles.cardsContainer}>
       {communities.map((community) => (
-        <CommunityCard community={community} />
+        <CommunityCard key={community.id} community={community} />
       ))}
     </div>
   </Section>
