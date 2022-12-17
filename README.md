@@ -64,9 +64,12 @@
 
 To get a local copy up and running, follow these steps.
 
-*First* Clone this repo.. 
+*First* Clone this repo..
+
 *Second* type command `npm install` in the directory created by first command
+
 *Third* Type `gatsby develop` command
+
 *Forth* Enjoy..
 
 ### Prerequisites
@@ -74,7 +77,6 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 Node.js for npm packages
-
 
 
 ### Run tests
@@ -107,7 +109,9 @@ To run tests, run the following command:
 In future I want to add more features for this project:
 
 **[Add more animations]**
+
 **[Deploy it]**
+
 **[Dockerize it]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,9 +130,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project Show your support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,9 +138,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+Website design is created by [Acceleratorapp](http://acceleratorapp.co)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
