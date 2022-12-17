@@ -1,31 +1,29 @@
-import * as React from "react"
-import CommunityCard from "../../components/communityCard/communityCard"
-import Section from "../../components/section/Section"
-import * as styles from "./commSection.module.css"
-import { communities } from "../../../public/static/data"
-import { icons } from "../../../public/static/data"
+import * as React from 'react';
+import CommunityCard from '../../components/communityCard/communityCard';
+import Section from '../../components/section/Section';
+import * as styles from './commSection.module.css';
+import { communities, icons } from '../../../public/static/data';
 
-
-const CommunitySection = props => (
+const CommunitySection = (props) => (
   <Section additionalStyles={styles.community}>
-    <ul className={styles.featureIcons} style={{ color: "black" }}>
+    <ul className={styles.featureIcons} style={{ color: 'black' }}>
       {icons.map((icon) => (
         <li className={styles.featIcon}>
-            <img src={icon.source} alt={icon.name} />
+          <img src={icon.source} alt={icon.name} />
         </li>
       ))}
     </ul>
     <div className={styles.communityTexts}>
-        <p>Community</p>
-        <h3>Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Community</p>
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <div className={styles.cardsContainer}>
-        {communities.map((community) => (
-          <CommunityCard community={community} />
-        ))}
+      {communities.map((community) => (
+        <CommunityCard community={community} />
+      ))}
     </div>
   </Section>
-)
+);
 
-export default CommunitySection
+export default CommunitySection;
