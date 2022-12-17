@@ -19,7 +19,7 @@ const CommunityCard = ({ community }) => {
       <p className={styles.cardDescrip}>{discription}</p>
       <div className={styles.border} />
       <ul className={styles.cardFeatures}>
-        <li>Popular Features</li>
+        <li key="title">Popular Features</li>
         {features.map((feature) => (
           <li key={feature.name} className={styles.feature}>
             <img src="check.svg" alt="check" />
