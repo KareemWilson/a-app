@@ -1,9 +1,9 @@
 .hero {
-    background-image: url(/Looper-3.svg), url(/Background.svg);
-    background-repeat: no-repeat no-repeat;
-    background-size: 135rem 87rem;
-    background-position-y: -492px;
-}   
+  background-image: url(/Looper-3.svg), url(/Background.svg);
+  background-repeat: no-repeat no-repeat;
+  background-size: 135rem 87rem;
+  background-position-y: -492px;
+}
 
 /* .hero::before{
     content: "";
@@ -15,87 +15,91 @@
 } */
 
 .heroImage {
-    padding-top: 2rem;    
+  padding-top: 2rem;
 }
 
 .heroContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .chatIcon {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
-.heroContent p:nth-child(1){
-    font-size: 26px;
-    font-weight: 600;
-    font-style: normal; 
-}
-.heroContent h1:nth-child(2){
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 64px;
-    max-width: 50rem;
-    margin-bottom: 1rem;
+.heroContent p:nth-child(1) {
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
 }
 
-.heroContent p:nth-child(3){
-    font-size: 20px;
-    font-weight: 500;
-    max-width: 45rem; 
-    font-style: normal; 
+.heroContent h1:nth-child(2) {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  max-width: 50rem;
+  margin-bottom: 1rem;
+}
+
+.heroContent p:nth-child(3) {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 45rem;
+  font-style: normal;
 }
 
 .demoBtn {
-    width: 165px;
-    height: 48px;
-    background-color: white;
-    border-radius: 4px;
-    padding: 12px 24px;
-    font-weight: 600;
-    font-size: 12px;
-    border: none;
+  width: 165px;
+  height: 48px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
 }
 
 @media screen and (max-width: 768px) {
-    .hero{
-        background-image: url(/BackgroundforMobile.svg);
-        background-size: auto;
-        background-position-y: -164px;
-    }
-    .cardContainer{
-        width: inherit
-    }
-    .heroContent {
-        width: 114%;
-    }
-
-    .heroContent p:nth-child(1){
-        font-size: 16px;
-    }
-
-    .heroContent h1:nth-child(2){
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 32px;
-        max-width: 60rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .heroContent p:nth-child(3){
-        font-size: 14px;
-        font-weight: 400;
-        max-width: 45rem; 
-        font-style: normal; 
-    }
-    .demoBtn{
-        width: 15.6875rem;
-    }
+  .hero {
+    background-image: url(/BackgroundforMobile.svg);
+    background-size: auto;
+    background-position-y: -164px;
   }
+
+  .cardContainer {
+    width: inherit;
+  }
+
+  .heroContent {
+    width: 114%;
+  }
+
+  .heroContent p:nth-child(1) {
+    font-size: 16px;
+  }
+
+  .heroContent h1:nth-child(2) {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 60rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .heroContent p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 45rem;
+    font-style: normal;
+  }
+
+  .demoBtn {
+    width: 15.6875rem;
+  }
+}

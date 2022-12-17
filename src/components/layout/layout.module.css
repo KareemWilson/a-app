@@ -4,10 +4,23 @@
   --color-primary: #7026b9;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
+  --font-sans:
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    helvetica,
+    arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  --font-mono:
+    sfmono-regular,
+    menlo,
+    monaco,
+    consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
   --font-lg: 18px;
   --font-md: 16px;
   --font-sm: 14px;
@@ -26,14 +39,16 @@
   --size-gutter: var(--space-5);
   --size-gap: var(--space-6);
 }
+
 html {
   -webkit-text-size-adjust: 100%;
   box-sizing: border-box;
-  font: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: var(--font-md);
   line-height: var(--line-height-normal);
   overflow-y: scroll;
 }
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -44,33 +59,38 @@ body {
   margin: 0;
   word-wrap: break-word;
 }
+
 a {
   background-color: transparent;
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
-  text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
 }
+
 a:active,
 a:hover {
   outline-width: 0;
   text-decoration: none;
 }
+
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
   text-decoration: none;
 }
+
 b,
 strong {
   font-weight: inherit;
   font-weight: bolder;
 }
+
 dfn {
   font-style: italic;
 }
+
 h1 {
   margin: 0;
   margin-bottom: 3rem;
@@ -78,13 +98,12 @@ h1 {
   line-height: var(--line-height-dense);
   letter-spacing: -0.01em;
 }
-h1 > b {
-  color: var(--color-primary);
-}
+
 img {
   border-style: none;
   max-width: 100%;
 }
+
 code,
 kbd,
 pre,
@@ -93,6 +112,7 @@ samp {
   font-size: 1em;
   line-height: inherit;
 }
+
 hr {
   box-sizing: content-box;
   overflow: visible;
@@ -105,15 +125,19 @@ hr {
   border: none;
   height: 1px;
 }
+
 * {
   box-sizing: inherit;
 }
-*:before {
+
+*::before {
   box-sizing: inherit;
 }
-*:after {
+
+*::after {
   box-sizing: inherit;
 }
+
 hgroup,
 img,
 figure,
@@ -127,12 +151,14 @@ p {
   padding: 0;
   margin-bottom: var(--space-4);
 }
+
 ul,
 ol {
   margin-left: var(--space-4);
   list-style-position: outside;
   list-style-image: none;
 }
+
 pre {
   margin-left: 0;
   margin-right: 0;
@@ -146,57 +172,76 @@ pre {
   word-wrap: normal;
   padding: var(--space-4);
 }
+
 b,
 strong,
 dt,
 th {
   font-weight: bold;
 }
+
+h1 > b {
+  color: var(--color-primary);
+}
+
 li {
   margin-bottom: calc(var(--space-4) / 2);
 }
+
 ol li,
 ul li {
   padding-left: 0;
 }
+
 li > ol,
 li > ul {
   margin-bottom: calc(var(--space-4) / 2);
   margin-left: var(--space-4);
   margin-top: calc(var(--space-4) / 2);
 }
+
 blockquote *:last-child {
   margin-bottom: 0;
 }
+
 li *:last-child {
   margin-bottom: 0;
 }
+
 p *:last-child {
   margin-bottom: 0;
 }
-li > p {
-  margin-bottom: calc(var(--space-4) / 2);
-}
+
 p {
   max-width: 680px;
 }
+
+li > p {
+  margin-bottom: calc(var(--space-4) / 2);
+}
+
 code {
   font-size: 0.875rem;
 }
+
 kbd {
   font-size: 0.875rem;
 }
+
 samp {
   font-size: 0.875rem;
 }
+
 abbr {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
 }
+
 acronym {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
 }
+
 tt,
 code {
   background-color: var(--color-code-bg);
@@ -207,19 +252,22 @@ code {
   padding-top: 0.25em;
   word-break: normal;
 }
+
 pre code {
   background: none;
 }
-code:before,
-code:after,
-tt:before,
-tt:after {
+
+code::before,
+code::after,
+tt::before,
+tt::after {
   content: "\00a0";
   letter-spacing: -0.2em;
 }
-pre code:before,
-pre code:after,
-pre tt:before,
-pre tt:after {
+
+pre code::before,
+pre code::after,
+pre tt::before,
+pre tt::after {
   content: none;
 }

@@ -1,9 +1,9 @@
 .section {
-    margin: 0 0;
-    padding: var(--space-7) var(--size-gutter);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    color: rgb(255, 255, 255);
+  margin: 0 0;
+  padding: var(--space-7) var(--size-gutter);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
 }
