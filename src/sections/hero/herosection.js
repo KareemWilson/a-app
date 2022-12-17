@@ -2,7 +2,7 @@ import * as React from 'react';
 import Section from '../../components/section/Section';
 import * as styles from './heroSection.module.css';
 
-const HeroSection = (props) => (
+const HeroSection = () => (
   <Section additionalStyles={styles.hero}>
     <div className={styles.heroContent}>
       <p>Join in and connect</p>
@@ -13,7 +13,7 @@ const HeroSection = (props) => (
         AcceleratorApp Innovation Community — Tools and community to facilitate
         innovation between all members of our community
       </p>
-      <button className={styles.demoBtn}>
+      <button type="button" className={styles.demoBtn}>
         Schedule a Demo
       </button>
     </div>
