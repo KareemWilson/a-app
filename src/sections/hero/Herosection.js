@@ -9,7 +9,17 @@ const HeroSection = () => (
       src="../../images/Background.svg"
       width={2000}
       height={900}
-      style={{ position: 'absolute', top: 0, zIndex: -1 }}
+      quality={100}
+      className={styles.heroBg}
+    />
+    <StaticImage
+      src="../../images/Looper-3.svg"
+      style={{
+        position: 'absolute',
+        right: 0,
+        top: 0,
+        zIndex: -1,
+      }}
       quality={100}
     />
     <div className={styles.heroContent}>

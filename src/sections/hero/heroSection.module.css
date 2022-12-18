@@ -1,22 +1,13 @@
 .hero {
-  /* background-image: url(/Looper-3.svg), url(/Background.svg);
-  background-repeat: no-repeat no-repeat;
-  background-size: 135rem 87rem;
-  background-position-y: -492px; */
   height: auto;
 }
 
-/* .hero::before{
-    content: "";
-    position: absolute;
-    width: 58%;
-    top: -120px;
-    left: 802px;
-    background: url(/Looper-3.svg) no-repeat;
-} */
 
-.heroImage {
-  padding-top: 2rem;
+.heroBg{
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  width: 100%;
 }
 
 .heroContent {
@@ -67,11 +58,39 @@
   border: none;
 }
 
+@media (max-width: 1300px){
+  .heroContent p:nth-child(1) {
+    font-size: 26px;
+    margin-bottom: 0;
+    
+  }
+  
+  .heroContent h1:nth-child(2) {
+    font-size: 55px;
+  }
+  
+  .heroContent p:nth-child(3) {
+    font-size: 15px;
+  }
+
+  .heroBg{
+    height: 55rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     background-image: url(/BackgroundforMobile.svg);
     background-size: auto;
     background-position-y: -164px;
+  }
+
+  .heroBg{
+    height: 40rem;
+  }
+
+  .heroContent{
+    margin-bottom: 3rem;
   }
 
   .cardContainer {
