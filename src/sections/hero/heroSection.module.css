@@ -4,7 +4,7 @@
 
 
 .heroBg{
-  position: absolute;
+  position: absolute !important;
   top: 0;
   z-index: -2;
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .chatIcon {
-  position: fixed;
+  position: fixed !important;
   bottom: 0;
   right: 0;
   z-index: 999;
