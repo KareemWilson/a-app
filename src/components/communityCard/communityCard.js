@@ -13,7 +13,7 @@ const CommunityCard = ({ community }) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.titleContainer}>
-        <img className={styles.icon} src={icon} alt="card-title-icon" />
+        <img src="commStartup.png" className={styles.icon} alt="card-title-icon" />
         <p className={styles.cardTitle}>{title}</p>
       </div>
       <p className={styles.cardDescrip}>{discription}</p>

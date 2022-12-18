@@ -1,7 +1,7 @@
 export const communities = [
   {
     title: 'Incubator/Accelerator',
-    icon: 'incubators.svg',
+    icon: './images/chat.svg',
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis./n Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -12,7 +12,7 @@ export const communities = [
   },
   {
     title: 'Coporations',
-    icon: 'coporations.svg',
+    icon: 'src/images/commCoporations.png',
     discription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
       'Lorem ipsum dolor sit',
@@ -22,7 +22,7 @@ export const communities = [
   },
   {
     title: 'Investor',
-    icon: 'investor.svg',
+    icon: '../images/commInvestor.png',
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -32,8 +32,8 @@ export const communities = [
     ],
   },
   {
-    title: 'Startup',
-    icon: 'startup.svg',
+    title: 'images/Startup',
+    icon: 'src/images/commStartup.png',
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -44,7 +44,7 @@ export const communities = [
   },
   {
     title: 'Open Challenge',
-    icon: 'openchallenge.svg',
+    icon: 'images/commOpenchallenge.png',
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -103,33 +103,5 @@ export const features = [
     icon: 'more.svg',
     discription:
       'And more features integrated within the software to make your incubator/accelerator run more smoothly',
-  },
-];
-
-export const icons = [
-  {
-    id: 1,
-    name: 'featureIcon1',
-    source: 'src/images/featureIcon1.svg',
-  },
-  {
-    id: 2,
-    name: 'featureIcon2',
-    source: '../../images/featureIcon2.svg',
-  },
-  {
-    id: 3,
-    name: 'featureIcon3',
-    source: '../../images/featureIcon3.svg',
-  },
-  {
-    id: 4,
-    name: 'featureIcon4',
-    source: '../../images/featureIcon4.svg',
-  },
-  {
-    id: 5,
-    name: 'featureIcon5',
-    source: '../../images/featureIcon5.svg',
   },
 ];

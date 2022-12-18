@@ -10,8 +10,8 @@ import { communities } from '../../static/data';
 
 const CommunitySection = () => {
   const data = useStaticQuery(graphql`
-  query MyQuery {
-    allFile(filter: {name: {regex: "/^featureIcon/"}}) {
+  query Data {
+    features: allFile(filter: {name: {regex: "/^featureIcon/"}}) {
       edges {
         node {
           name
@@ -25,9 +25,8 @@ const CommunitySection = () => {
   }
 `)
 
-const icons = data.allFile.edges
+const icons = data.features.edges
 
-  console.log('here is the data', icons);
   return(
     <Section additionalStyles={styles.community}>
     <ul className={styles.featureIcons} style={{ color: 'black' }}>

@@ -1,9 +1,5 @@
 .features {
-  height: auto;
-  background: url("/featuresBackground.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0;
+  position: relative;
 }
 
 .featuresTexts {
