@@ -120,7 +120,7 @@
   }
 
   .featIcon img {
-    height: 2rem;
+    height: 2rem !important;
   }
 }
 
