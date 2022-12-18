@@ -2,8 +2,7 @@
   height: auto;
 }
 
-
-.heroBg{
+.heroBg {
   position: absolute !important;
   top: 0;
   z-index: -2;
@@ -58,22 +57,21 @@
   border: none;
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
   .heroContent p:nth-child(1) {
     font-size: 26px;
     margin-bottom: 0;
-    
   }
-  
+
   .heroContent h1:nth-child(2) {
     font-size: 55px;
   }
-  
+
   .heroContent p:nth-child(3) {
     font-size: 15px;
   }
 
-  .heroBg{
+  .heroBg {
     height: 55rem;
   }
 }
@@ -85,12 +83,8 @@
     background-position-y: -164px;
   }
 
-  .heroBg{
+  .heroBg {
     height: 40rem;
-  }
-
-  .heroContent{
-    margin-bottom: 3rem;
   }
 
   .cardContainer {
@@ -99,6 +93,7 @@
 
   .heroContent {
     width: 114%;
+    margin-bottom: 3rem;
   }
 
   .heroContent p:nth-child(1) {
