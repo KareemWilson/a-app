@@ -43,43 +43,65 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[Responsiveness]** : Responsive layout, adaption on various sizes of screens
-- **[Fast]** : As it created by Gatsby, so it is generated and renders faster
-- **[Testing]** 
+- **Responsiveness** : Responsive layout, adaption on various sizes of screens
+- **Fast** : As it created by Gatsby, so it is generated and renders faster
+- **Testing** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+## Live Demo
 
-
+- Here is the Live Demo [Link](https://acceleratewebpage.netlify.app/) 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-
-*First* Clone this repo..
-
-*Second* type command `npm install` in the directory created by first command
-
-*Third* Type `gatsby develop` command
-
-*Forth* Enjoy..
-
 ### Prerequisites
 
-In order to run this project you need:
+**In order to run this project you need:**
 
-Node.js for npm packages
+- Node.js -v @18 or latest  *[here](https://nodejs.org/en/download/) you can download the latest version node*
+- npm          *Here is the [installation guide](https://www.npmjs.com/package/download) of npm*             
+- Gatsby-cli    *Here is the [guide](https://www.gatsbyjs.com/docs/tutorial/part-0/) of installation*  
+
+
+### Setup
+
+1. Clone the repo
+
+```sh
+git clone git@github.com:KareemWilson/a-app.git
+```
+
+2. Go to the clone directory
+
+```sh
+cd a-app
+```
+
+3. install node_modules
+
+```sh
+npm install
+```
+
+4. Then we will use gatsby
+
+```sh
+gatsby develop
+```
+
+5. EnJoy...
 
 
 ### Run tests
 
 To run tests, run the following command: 
 
-`npm run test`
-
-
+```sh
+npm run test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,8 +125,6 @@ To run tests, run the following command:
 In future I want to add more features for this project:
 
 **[Add more animations]**
-
-**[Deploy it]**
 
 **[Dockerize it]**
 
