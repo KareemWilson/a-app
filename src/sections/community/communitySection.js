@@ -1,15 +1,39 @@
+/* eslint-disable */
+
 import * as React from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { useStaticQuery, graphql } from 'gatsby';
 import CommunityCard from '../../components/communityCard/communityCard';
 import Section from '../../components/section/Section';
 import * as styles from './commSection.module.css';
-import { communities, icons } from '../../../public/static/data';
+import { communities } from '../../static/data';
 
-const CommunitySection = () => (
-  <Section additionalStyles={styles.community}>
+const CommunitySection = () => {
+  const data = useStaticQuery(graphql`
+  query MyQuery {
+    allFile(filter: {name: {regex: "/^featureIcon/"}}) {
+      edges {
+        node {
+          name
+          relativePath
+          childImageSharp {
+            gatsbyImageData(width: 100)
+          }
+        }
+      }
+    }
+  }
+`)
+
+const icons = data.allFile.edges
+
+  console.log('here is the data', icons);
+  return(
+    <Section additionalStyles={styles.community}>
     <ul className={styles.featureIcons} style={{ color: 'black' }}>
-      {icons.map((icon) => (
-        <li key={icon.id} className={styles.featIcon}>
-          <img src={icon.source} alt={icon.name} />
+      {icons.map((icon, i) => (
+        <li key={i} className={styles.featIcon}>
+          <GatsbyImage image={getImage(icon.node.childImageSharp)} />
         </li>
       ))}
     </ul>
@@ -24,6 +48,8 @@ const CommunitySection = () => (
       ))}
     </div>
   </Section>
-);
+  )
+}
+
 
 export default CommunitySection;

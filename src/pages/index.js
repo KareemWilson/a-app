@@ -2,7 +2,7 @@ import * as React from 'react';
 import Layout from '../components/layout/layout';
 import CommunitySection from '../sections/community/communitySection';
 import FeaturesSection from '../sections/features/featuresSection';
-import HeroSection from '../sections/hero/herosection';
+import HeroSection from '../sections/hero/Herosection';
 
 const IndexPage = () => (
   <Layout>

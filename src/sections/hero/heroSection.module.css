@@ -1,8 +1,9 @@
 .hero {
-  background-image: url(/Looper-3.svg), url(/Background.svg);
+  /* background-image: url(/Looper-3.svg), url(/Background.svg);
   background-repeat: no-repeat no-repeat;
   background-size: 135rem 87rem;
-  background-position-y: -492px;
+  background-position-y: -492px; */
+  height: auto;
 }
 
 /* .hero::before{

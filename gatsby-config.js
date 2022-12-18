@@ -12,15 +12,22 @@ module.exports = {
     title: 'Acceleratorapp',
     description: 'task',
     author: '@kareemwilson',
-    siteUrl: 'https://gatsbystarterdefaultsource.gatsbyjs.io/',
   },
   plugins: [
     'gatsby-plugin-image',
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/src/static`,
       },
     },
     'gatsby-transformer-sharp',
@@ -32,9 +39,6 @@ module.exports = {
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: 'minimal-ui',
         icon: 'src/images/featureIcon2.svg', // This path is relative to the root of the site.
       },
