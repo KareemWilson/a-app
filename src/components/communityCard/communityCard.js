@@ -21,8 +21,8 @@ const CommunityCard = ({ community }) => {
       <div className={styles.border} />
       <ul className={styles.cardFeatures}>
         <li key="title">Popular Features</li>
-        {features.map((feature) => (
-          <li key={feature.name} className={styles.feature}>
+        {features.map((feature, i) => (
+          <li key={i} className={styles.feature}>
             <StaticImage src="../../images/check.svg" alt="check" quality={100} />
             <p>{feature}</p>
           </li>

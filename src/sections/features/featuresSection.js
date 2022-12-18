@@ -12,6 +12,7 @@ const FeaturesSection = () => (
       width={1700}
       height={1700}
       style={{ position: 'absolute', zIndex: -1 }}
+      alt="featuresSectionBg"
     />
     <div className={styles.featuresTexts}>
       <p>Features integrated</p>
@@ -19,7 +20,7 @@ const FeaturesSection = () => (
     </div>
     <div className={styles.featuresContainer}>
       {features.map((feature) => (
-        <FeatureCard key={feature} feature={feature} />
+        <FeatureCard key={feature.id} feature={feature} />
       ))}
       <button type="button" className={styles.discoverBtn}>Discover its functions →</button>
     </div>

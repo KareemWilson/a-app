@@ -11,7 +11,7 @@ const FeatureCard = ({ feature }) => {
 
   return (
     <div className={styles.cardContainer}>
-      <div className={styles.titleContainer}>
+      <div>
         <img className={styles.icon} src={icon} alt="card-title-icon" />
         <p className={styles.cardTitle}>{title}</p>
       </div>
