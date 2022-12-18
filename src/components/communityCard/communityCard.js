@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import PropTypes, { string } from 'prop-types';
 import * as styles from './commCard.module.css';
 
@@ -13,7 +14,7 @@ const CommunityCard = ({ community }) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.titleContainer}>
-        <img src="commStartup.png" className={styles.icon} alt="card-title-icon" />
+        <img src={icon} className={styles.icon} alt="card-title-icon" />
         <p className={styles.cardTitle}>{title}</p>
       </div>
       <p className={styles.cardDescrip}>{discription}</p>
@@ -22,7 +23,7 @@ const CommunityCard = ({ community }) => {
         <li key="title">Popular Features</li>
         {features.map((feature) => (
           <li key={feature.name} className={styles.feature}>
-            <img src="check.svg" alt="check" />
+            <StaticImage src="../../images/check.svg" alt="check" quality={100} />
             <p>{feature}</p>
           </li>
         ))}

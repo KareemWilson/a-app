@@ -36,7 +36,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Acceleratorapp',
-        short_name: 'starter',
+        short_name: 'a-app',
         start_url: '/',
         background_color: '#663399',
         display: 'minimal-ui',

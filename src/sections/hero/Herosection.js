@@ -10,6 +10,7 @@ const HeroSection = () => (
       width={2000}
       height={900}
       style={{ position: 'absolute', top: 0, zIndex: -1 }}
+      quality={100}
     />
     <div className={styles.heroContent}>
       <p>Join in and connect</p>
@@ -22,11 +23,12 @@ const HeroSection = () => (
         Schedule a Demo
       </button>
     </div>
-    <StaticImage src="../../images/Video.png" alt="videoImage" />
+    <StaticImage src="../../images/Video.png" alt="videoImage" quality={100} />
     <StaticImage
       src="../../images/chat.svg"
       alt="chat-icon"
       className={styles.chatIcon}
+      quality={100}
     />
   </Section>
 );

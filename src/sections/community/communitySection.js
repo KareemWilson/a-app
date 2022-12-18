@@ -17,7 +17,7 @@ const CommunitySection = () => {
           name
           relativePath
           childImageSharp {
-            gatsbyImageData(width: 100)
+            gatsbyImageData(width: 100, quality: 100)
           }
         }
       }

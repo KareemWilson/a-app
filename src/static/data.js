@@ -1,7 +1,21 @@
+import incubators from '../images/commIncubators.png';
+import Coporations from '../images/commCoporations.png';
+import Investor from '../images/commInvestors.png';
+import Startup from '../images/commStartup.png';
+import Challenge from '../images/commOpenchallenge.png';
+import Multilingual from '../images/multi.svg';
+import Scheduling from '../images/scheduling.svg';
+import Smart from '../images/smarttask.svg';
+import Track from '../images/trackmails.svg';
+import Automate from '../images/automatemails.svg';
+import Calendar from '../images/calender.svg';
+import Zapier from '../images/zapier.svg';
+import more from '../images/more.svg';
+
 export const communities = [
   {
     title: 'Incubator/Accelerator',
-    icon: './images/chat.svg',
+    icon: incubators,
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis./n Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -12,7 +26,7 @@ export const communities = [
   },
   {
     title: 'Coporations',
-    icon: 'src/images/commCoporations.png',
+    icon: Coporations,
     discription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
       'Lorem ipsum dolor sit',
@@ -22,7 +36,7 @@ export const communities = [
   },
   {
     title: 'Investor',
-    icon: '../images/commInvestor.png',
+    icon: Investor,
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -32,8 +46,8 @@ export const communities = [
     ],
   },
   {
-    title: 'images/Startup',
-    icon: 'src/images/commStartup.png',
+    title: 'Startup',
+    icon: Startup,
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -44,7 +58,7 @@ export const communities = [
   },
   {
     title: 'Open Challenge',
-    icon: 'images/commOpenchallenge.png',
+    icon: Challenge,
     discription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
     features: [
@@ -58,49 +72,49 @@ export const communities = [
 export const features = [
   {
     title: 'Multilingual',
-    icon: 'multi.svg',
+    icon: Multilingual,
     discription:
       'Be accessible. The applicationis supported in multiple languages. These includes English, French, Spanish, Deutsche, Portuguese, Arabic, Ukrainian, Bahasa, and Russian',
   },
   {
     title: 'Scheduling tools',
-    icon: 'scheduling.svg',
+    icon: Scheduling,
     discription:
       'Liberate your time by automating integrated scheduling for your team, mentors, and experts',
   },
   {
     title: 'Smart tasks',
-    icon: 'smarttask.svg',
+    icon: Smart,
     discription:
       'Drive action by assigning tasks with comprehensive segmentation capabilities',
   },
   {
     title: 'Track e-Mails',
-    icon: 'trackmails.svg',
+    icon: Track,
     discription:
       'Gain clarity by sending tracked emails from within the platform to ensure receipt and interaction',
   },
   {
     title: 'Automate your e-Mails',
-    icon: 'automatemails.svg',
+    icon: Automate,
     discription:
       'Become superhuman by customizing your emails and automating communication with users throughout the platform',
   },
   {
     title: 'Calendar Integration',
-    icon: 'calender.svg',
+    icon: Calendar,
     discription:
       'Stay on top of everything by syncing your Google or Microsoft calendar with your AcceleratorApp calendar for easy, automated scheduling',
   },
   {
     title: 'Zapier Integration',
-    icon: 'zapier.svg',
+    icon: Zapier,
     discription:
       'Collaborate with others by integrating your processes across departments using zapier as a bridge between AcceleratorApp and your favorite apps',
   },
   {
     title: 'And More...',
-    icon: 'more.svg',
+    icon: more,
     discription:
       'And more features integrated within the software to make your incubator/accelerator run more smoothly',
   },

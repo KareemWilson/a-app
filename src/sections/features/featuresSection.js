@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import FeatureCard from '../../components/featureCard/featureCard';
 import Section from '../../components/section/Section';
 import * as styles from './featSection.module.css';
-import { features } from '../../../public/static/data';
+import { features } from '../../static/data';
 
 const FeaturesSection = () => (
   <Section additionalStyles={styles.features}>
